@@ -12,8 +12,11 @@
             <div class="card">
                 <div class="card-header">
                     <h2>Laravel Livewire CRUD - saeedghsmi.ir</h2>
+                    <div wire:poll.keep-alive>
+                        Current time: {{ now() }}
+                    </div>
                 </div>
-               {{$slot}}
+                {{$slot}}
             </div>
         </div>
     </div>

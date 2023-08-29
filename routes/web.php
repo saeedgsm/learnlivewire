@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', \App\Http\Livewire\TestExample::class);
-Route::get('/task/{name}',\App\Http\Livewire\TaskComp::class);
+Route::get('/task',\App\Http\Livewire\TaskComp::class);
