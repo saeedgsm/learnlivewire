@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
 use App\Models\User;
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use function session;
+use function view;
 
 class TaskComp extends Component
 {
