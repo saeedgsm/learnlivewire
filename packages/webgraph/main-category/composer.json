@@ -1,0 +1,26 @@
+{
+    "name": "webgraph/main-category",
+    "description": "Main category for laravel",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saeed gsm",
+            "email": "blestdev@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "psr-4": {
+        "webgraph\\mainCategory\\": "src/",
+        "Webgraph\\MainCategory\\Database\\Factories\\": "database/factories"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "categories\\main-category\\MainCategoryServiceProvider"
+            ]
+        }
+    }
+}

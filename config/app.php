@@ -159,6 +159,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \Webgraph\MainCategory\MainCategoryServiceProvider::class,
 
         /*
          * Application Service Providers...
